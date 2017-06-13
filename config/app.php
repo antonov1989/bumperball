@@ -26,9 +26,9 @@ return [
     |
     */
 
-    'url' => 'http://localhost',
+    'url' => 'http://bumperball.kh.ua',
 
-    'name' => 'VapingDog',
+    'name' => 'Bumperball',
 
     /*
     |--------------------------------------------------------------------------

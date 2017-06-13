@@ -8,43 +8,43 @@
             <div class="container margin-bot">
                 <nav id="top-links" class="nav toggle-wrap">
                     <a class="toggle material-design-settings49" href='#'></a>
-                    
+
                     <ul class="toggle_cont">
                         <li class="first">
                             <a href="/" title="Home">
                                 <span>Home</span>
                             </a>
                         </li>
-                        
+
                         <li class="toggle-wrap">
                             <a href="/account" title="My Account" class="toggle">
                                 <span>My Account</span>
                                 <span class="caret"></span>
                             </a>
-                            
+
                             <ul class="toggle_cont toggle_cont__right">
                                 <li>
                                     <a href="/register">Register</a>
                                 </li>
-                                
+
                                 <li>
                                     <a href="/login">Log in</a>
                                 </li>
                             </ul>
                         </li>
-                        
+
                         <li>
                             <a href="/compare" id="compare-total2" title="Product Compare">
                                 <span>Product Compare</span>
                             </a>
                         </li>
-                        
+
                         <li>
                             <a href="/cart" title="Shopping Cart">
                                 <span>Shopping Cart</span>
                             </a>
                         </li>
-                        
+
                         <li>
                             <a href="/checkout" title="Checkout">
                                 <span>Checkout</span>
@@ -52,16 +52,16 @@
                         </li>
                     </ul>
                 </nav>
-                
+
                 <div class="fleft col-sm-6">
                     <div id="logo" class="logo">
-                        <a href="/"><img src="/img/logos/logo-white.png" title="Vaping Dog" alt="Vaping Dog" class="img-responsive" style="margin-top: 6px;" /></a>
+                        <a href="/"><img src="/img/logos/logo-white.png" title="Bumperball" alt="Bumperball" class="img-responsive" style="margin-top: 6px;" /></a>
                     </div>
                 </div>
-                
+
                 <div class="fright col-sm-6">
                     <a class="login" href="/login"><i class="material-icons-vpn_key"></i><span>Log in</span></a>
-                    
+
                     <div class="box-cart">
                         <div id="cart" class="cart toggle-wrap">
                             <button type="button" data-loading-text="Loading..." class="toggle">
@@ -76,18 +76,18 @@
                             </ul>
                         </div>
                     </div>
-                    
+
                     <div id="search" class="search fix-right fl-bigmug-line-search74">
                         <div class="search-cnt">
                             <input type="text" name="search" value="" placeholder="Search"/>
                             <button type="button" class="button-search fl-bigmug-line-search74"></button>
                         </div>
                     </div>
-                    
+
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="icon2 fa fa-dollar">
-                                <p><a href="e-liquids">Vaping Dog E-Liquid<br>Buy 3 Save 33%<br>Everyday!</a></p>
+                                <p><a href="e-liquids">Bumperball<br>Buy 3 Save 33%<br>Everyday!</a></p>
                             </div>
                         </div>
                         <div class="col-sm-6">
@@ -107,7 +107,7 @@
                                 <li>
                                     <a href="/kits">Kits</a>
                                 </li>
-                                
+
                                 <li>
                                     <a href="/mods" class="active">Mods</a>
                                     <ul>
@@ -122,7 +122,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                
+
                                 <li>
                                     <a href="/tanks-and-coils">Tanks &amp; Coils</a>
                                     <ul>
@@ -138,7 +138,7 @@
 
                                     </ul>
                                 </li>
-                                
+
                                 <li>
                                     <a href="/chargers-and-batteries">Chargers &amp; Batteries</a>
                                     <ul>
@@ -150,7 +150,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                
+
                                 <li>
                                     <a href="/e-liquids">E-Liquids</a>
                                     <ul>
@@ -210,14 +210,14 @@
                                         </li>
                                     </ul>
                                 </li>
-                                
+
                                 <li>
                                     <a href="/accessories">Accessories</a>
                                     <ul>
                                         <li>
                                             <a href="/merch">Merch</a>
                                         </li>
-                                        
+
                                         <li>
                                             <a href="/j-wraps" class="parent">J-Wraps</a>
                                             <ul>
@@ -232,11 +232,11 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        
+
                                         <li>
                                             <a href="/drip-tips">Drip Tips</a>
                                         </li>
-                                        
+
                                         <li>
                                             <a href="/miscellaneous">Miscellaneous</a>
                                         </li>
@@ -244,13 +244,13 @@
                                 </li>
                             </ul>
                         </div>
-                        
+
                         <div id="tm_menu" class="nav__primary">
                             <ul class="menu">
                                 <li>
                                     <a href="/kits">Kits</a>
                                 </li>
-                                
+
                                 <li>
                                     <a href="/mods" class="active">Mods</a>
                                     <ul>
@@ -265,7 +265,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                
+
                                 <li>
                                     <a href="/tanks-and-coils">Tanks &amp; Coils</a>
                                     <ul>
@@ -280,7 +280,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                
+
                                 <li>
                                     <a href="/chargers-and-batteries">Chargers &amp; Batteries</a>
                                     <ul>
@@ -292,7 +292,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                
+
                                 <li>
                                     <a href="/e-liquids">E-Liquids</a>
                                     <ul>
@@ -352,14 +352,14 @@
                                         </li>
                                     </ul>
                                 </li>
-                                
+
                                 <li>
                                     <a href="/accessories">Accessories</a>
                                     <ul>
                                         <li>
                                             <a href="/merch">Merch</a>
                                         </li>
-                                        
+
                                         <li>
                                             <a href="/j-wraps" class="parent">J-Wraps</a><ul>
                                                 <li>
@@ -373,18 +373,18 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        
+
                                         <li>
                                             <a href="/drip-tips">Drip Tips</a>
                                         </li>
-                                        
+
                                         <li>
                                             <a href="/miscellaneous">Miscellaneous</a>
                                         </li>
                                     </ul>
                                 </li>
                             </ul>
-                            
+
                             <div class="clear"></div>
                         </div>
                     </div>
@@ -401,8 +401,8 @@
                         <h5>Warning:</h5>
                         
                         <p style="line-height:18px!important">NOT FOR SALE TO MINORS | CALIFORNIA PROPOSITION 65 - Warning: This product contains nicotine, a chemical known to the state of California to cause birth defects or other reproductive harm.</p>
-                        <p style="line-height:18px!important">VapingDog makes no claims that the electronic cigarette will cure a smokers addiction to nicotine; the electronic cigarettes it sells serves the same purpose as a tobacco cigarette- it delivers its user nicotine. If you do suffer from Nicotine Dependence and want to take steps to give up smoking or cut down the quantity of cigarettes you currently smoke, we recommend you visit your health care provider to discuss NRT (Nicotine Replacement Therapy).</p>
-                        <p style="line-height:18px!important">VapingDog uses a non-affiliated third party company, Veratad Technologies, LLC, to verify that you are who you say you are and to confirm that you are 18 or older during the checkout process. Please review our <a href="privacy-policy">Privacy Policy</a> regarding our 3rd Party Age Verification and other important notices. Falsifying your age for the purpose of purchasing products from this web site is illegal and punishable by law!</p>
+                        <p style="line-height:18px!important">Bumperball makes no claims that the electronic cigarette will cure a smokers addiction to nicotine; the electronic cigarettes it sells serves the same purpose as a tobacco cigarette- it delivers its user nicotine. If you do suffer from Nicotine Dependence and want to take steps to give up smoking or cut down the quantity of cigarettes you currently smoke, we recommend you visit your health care provider to discuss NRT (Nicotine Replacement Therapy).</p>
+                        <p style="line-height:18px!important">Bumperball uses a non-affiliated third party company, Veratad Technologies, LLC, to verify that you are who you say you are and to confirm that you are 18 or older during the checkout process. Please review our <a href="privacy-policy">Privacy Policy</a> regarding our 3rd Party Age Verification and other important notices. Falsifying your age for the purpose of purchasing products from this web site is illegal and punishable by law!</p>
                     </div>
                 </div>
                 
@@ -481,19 +481,19 @@
                             <h5>Stay Connected</h5>
 
                             <div class="icon2 fa fa-facebook">
-                                <a href="https://www.facebook.com/vapingdog" target="_blank">Facebook Page</a>
+                                <a href="https://www.facebook.com/bumperball" target="_blank">Facebook Page</a>
                             </div>
                             
                             <div class="icon2 fa fa-facebook">
-                                <a href="https://www.facebook.com/groups/vapingdog" target="_blank">Facebook Group</a>
+                                <a href="https://www.facebook.com/groups/bumperball" target="_blank">Facebook Group</a>
                             </div>
                             
                             <div class="icon2 fa fa-twitter">
-                                <a href="https://twitter.com/vapingdog" target="_blank">Twitter</a>
+                                <a href="https://twitter.com/bumperball" target="_blank">Twitter</a>
                             </div>
                             
                             <div class="icon2 fa fa-instagram">
-                                <a href="https://www.instagram.com/vapingdog" target="_blank">Instagram</a>
+                                <a href="https://www.instagram.com/bumperball" target="_blank">Instagram</a>
                             </div>
                             
                             <div class="icon2 fa fa-youtube">

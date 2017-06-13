@@ -13,8 +13,8 @@
         
         <title>{{ config('app.name') }} - @yield('title')</title>
         
-        <meta name="description" content="VapingDog" />
-        <meta name="keywords" content="VapingDog" />
+        <meta name="description" content="Bumperball" />
+        <meta name="keywords" content="Bumperball" />
         
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <!--    --><!--        <link href="--><!--" rel="icon"/>-->
