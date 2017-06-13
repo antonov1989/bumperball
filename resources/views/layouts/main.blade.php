@@ -3,9 +3,9 @@
     <head lang="en">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        
+
         <title>{{ config('app.name') }} - @yield('title')</title>
-        
+
         <meta name="description" content="VapingDog" />
         <meta name="keywords" content="VapingDog" />
         <!--bootstrap css -->
@@ -36,7 +36,7 @@
         <!-- Bootstrap Jquery -->
         <script src="/js/libs/bootstrap.min.js" type="text/javascript"></script>
     </head>
-    
+
     <body>
         <div class="page lp-page lp-vape grey">
             <!--Header-->
@@ -51,7 +51,7 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                
+
                                 <div class="navbar-collapse" id="top-menu">
                                     <ul class="nav navbar-nav">
                                         <li><a href="/page/about"><span>О магазине</span></a></li>
@@ -61,7 +61,7 @@
                                     </ul>
                                 </div>
                             </div>-->
-                            
+
                             <ul class="nav navbar-nav navbar-left">
                                 <li class="social-btn">
                                     <a href="#" class="social-box" title="facebook" target="_blank">
@@ -91,7 +91,7 @@
                                     </a>
                                 </li>
                             </ul>
-                            
+
                             <ul class="nav navbar-nav navbar-right">
                                 <!--<li class="phone-numbers">
                                     <div class="current">
@@ -133,7 +133,7 @@
                                 </li>
                             </ul>
                         </div>
-                        
+
                         <div class="main-header">
                             <ul class="main-menu">
                                 <li class="logo">
@@ -176,9 +176,9 @@
                                     <a href="/store/show_cart">корзина<div class="icon-cart">0</div></a>
                                 </li>
                             </ul>-->
-                            
+
                             <div class="clearfix visible-xs"></div>
-                            
+
                             <div class="xs-search visible-xs">
                                 <div class="xs-header-search">
                                     <div class="search-dropdown">
@@ -259,13 +259,13 @@
                 <!--for mobile header-->
                 <section class="intro intro-image fixed-bg visible-xs" data-stellar-background-ratio="0.3" data-stellar-ratio="0.3" style="background-image: url(/img/lp_vape/slider/banner-1.png);"></section>
                 <!--for mobile header-->
-                
+
                 <section class="interesting-models catalog-page clearfix">
                     <div class="container">
                         <div class="page-header clearfix">
                             <h1 class="name pull-left">электронные сигареты</h1>
                         </div>
-                        
+
                         <div class="grid-catalog">
                             <div class="row">
                                 <div class="item-product col-xs-12 col-sm-4 col-md-6 col-lg-3 no-padd-xs">
@@ -282,7 +282,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="bottom-block">
                                             <h5 class="" itemprop="name">
                                                 <a href="/item/startovyiy-nabor-kanger-topbox-mini-starter-kit-platinum-krtbmk7-1556" class="product-name" itemprop="url">
@@ -300,12 +300,12 @@
                                                     <script type="text/javascript">
                                                         $('#addToCartButton_1556').click(function() {
                                                             fbq('track', 'AddToCart', {
-                                                                content_name: 'Стартовый набор Kanger TOPBOX Mini Starter kit Platinum (KRTBMK7)', 
+                                                                content_name: 'Стартовый набор Kanger TOPBOX Mini Starter kit Platinum (KRTBMK7)',
                                                                 content_category: 'Электронные сигареты, стартовые комплекты и моды',
                                                                 content_ids: ['1556'],
                                                                 content_type: 'product',
                                                                 value: 2349.0,
-                                                                currency: 'UAH' 
+                                                                currency: 'UAH'
                                                             });
                                                             dataLayer.push({'event':'basket'});
                                                         });
@@ -315,7 +315,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="item-product col-xs-12 col-sm-4 col-md-6 col-lg-3 no-padd-xs">
                                     <div class="product-block product-small" itemscope itemtype="https://schema.org/Product">
                                         <div class="top-block">
@@ -330,7 +330,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="bottom-block">
                                             <h5 class="" itemprop="name">
                                                 <a href="/item/startovyiy-nabor-kanger-topbox-mini-starter-kit-platinum-krtbmk7-1556" class="product-name" itemprop="url">
@@ -348,12 +348,12 @@
                                                     <script type="text/javascript">
                                                         $('#addToCartButton_1556').click(function() {
                                                             fbq('track', 'AddToCart', {
-                                                                content_name: 'Стартовый набор Kanger TOPBOX Mini Starter kit Platinum (KRTBMK7)', 
+                                                                content_name: 'Стартовый набор Kanger TOPBOX Mini Starter kit Platinum (KRTBMK7)',
                                                                 content_category: 'Электронные сигареты, стартовые комплекты и моды',
                                                                 content_ids: ['1556'],
                                                                 content_type: 'product',
                                                                 value: 2349.0,
-                                                                currency: 'UAH' 
+                                                                currency: 'UAH'
                                                             });
                                                             dataLayer.push({'event':'basket'});
                                                         });
@@ -363,7 +363,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="item-product col-xs-12 col-sm-4 col-md-6 col-lg-3 no-padd-xs">
                                     <div class="product-block product-small" itemscope itemtype="https://schema.org/Product">
                                         <div class="top-block">
@@ -378,7 +378,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="bottom-block">
                                             <h5 class="" itemprop="name">
                                                 <a href="/item/startovyiy-nabor-kanger-topbox-mini-starter-kit-platinum-krtbmk7-1556" class="product-name" itemprop="url">
@@ -396,12 +396,12 @@
                                                     <script type="text/javascript">
                                                         $('#addToCartButton_1556').click(function() {
                                                             fbq('track', 'AddToCart', {
-                                                                content_name: 'Стартовый набор Kanger TOPBOX Mini Starter kit Platinum (KRTBMK7)', 
+                                                                content_name: 'Стартовый набор Kanger TOPBOX Mini Starter kit Platinum (KRTBMK7)',
                                                                 content_category: 'Электронные сигареты, стартовые комплекты и моды',
                                                                 content_ids: ['1556'],
                                                                 content_type: 'product',
                                                                 value: 2349.0,
-                                                                currency: 'UAH' 
+                                                                currency: 'UAH'
                                                             });
                                                             dataLayer.push({'event':'basket'});
                                                         });
@@ -411,7 +411,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="item-product col-xs-12 col-sm-4 col-md-6 col-lg-3 no-padd-xs">
                                     <div class="product-block product-small" itemscope itemtype="https://schema.org/Product">
                                         <div class="top-block">
@@ -426,7 +426,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="bottom-block">
                                             <h5 class="" itemprop="name">
                                                 <a href="/item/startovyiy-nabor-kanger-topbox-mini-starter-kit-platinum-krtbmk7-1556" class="product-name" itemprop="url">
@@ -444,12 +444,12 @@
                                                     <script type="text/javascript">
                                                         $('#addToCartButton_1556').click(function() {
                                                             fbq('track', 'AddToCart', {
-                                                                content_name: 'Стартовый набор Kanger TOPBOX Mini Starter kit Platinum (KRTBMK7)', 
+                                                                content_name: 'Стартовый набор Kanger TOPBOX Mini Starter kit Platinum (KRTBMK7)',
                                                                 content_category: 'Электронные сигареты, стартовые комплекты и моды',
                                                                 content_ids: ['1556'],
                                                                 content_type: 'product',
                                                                 value: 2349.0,
-                                                                currency: 'UAH' 
+                                                                currency: 'UAH'
                                                             });
                                                             dataLayer.push({'event':'basket'});
                                                         });
@@ -460,7 +460,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="row">
                                 <div class="item-product col-xs-12 col-sm-4 col-md-6 col-lg-3 no-padd-xs">
                                     <div class="product-block product-small" itemscope itemtype="https://schema.org/Product">
@@ -476,7 +476,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="bottom-block">
                                             <h5 class="" itemprop="name">
                                                 <a href="/item/startovyiy-nabor-kanger-topbox-mini-starter-kit-platinum-krtbmk7-1556" class="product-name" itemprop="url">
@@ -494,12 +494,12 @@
                                                     <script type="text/javascript">
                                                         $('#addToCartButton_1556').click(function() {
                                                             fbq('track', 'AddToCart', {
-                                                                content_name: 'Стартовый набор Kanger TOPBOX Mini Starter kit Platinum (KRTBMK7)', 
+                                                                content_name: 'Стартовый набор Kanger TOPBOX Mini Starter kit Platinum (KRTBMK7)',
                                                                 content_category: 'Электронные сигареты, стартовые комплекты и моды',
                                                                 content_ids: ['1556'],
                                                                 content_type: 'product',
                                                                 value: 2349.0,
-                                                                currency: 'UAH' 
+                                                                currency: 'UAH'
                                                             });
                                                             dataLayer.push({'event':'basket'});
                                                         });
@@ -509,7 +509,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="item-product col-xs-12 col-sm-4 col-md-6 col-lg-3 no-padd-xs">
                                     <div class="product-block product-small" itemscope itemtype="https://schema.org/Product">
                                         <div class="top-block">
@@ -524,7 +524,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="bottom-block">
                                             <h5 class="" itemprop="name">
                                                 <a href="/item/startovyiy-nabor-kanger-topbox-mini-starter-kit-platinum-krtbmk7-1556" class="product-name" itemprop="url">
@@ -542,12 +542,12 @@
                                                     <script type="text/javascript">
                                                         $('#addToCartButton_1556').click(function() {
                                                             fbq('track', 'AddToCart', {
-                                                                content_name: 'Стартовый набор Kanger TOPBOX Mini Starter kit Platinum (KRTBMK7)', 
+                                                                content_name: 'Стартовый набор Kanger TOPBOX Mini Starter kit Platinum (KRTBMK7)',
                                                                 content_category: 'Электронные сигареты, стартовые комплекты и моды',
                                                                 content_ids: ['1556'],
                                                                 content_type: 'product',
                                                                 value: 2349.0,
-                                                                currency: 'UAH' 
+                                                                currency: 'UAH'
                                                             });
                                                             dataLayer.push({'event':'basket'});
                                                         });
@@ -557,7 +557,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="item-product col-xs-12 col-sm-4 col-md-6 col-lg-3 no-padd-xs">
                                     <div class="product-block product-small" itemscope itemtype="https://schema.org/Product">
                                         <div class="top-block">
@@ -572,7 +572,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="bottom-block">
                                             <h5 class="" itemprop="name">
                                                 <a href="/item/startovyiy-nabor-kanger-topbox-mini-starter-kit-platinum-krtbmk7-1556" class="product-name" itemprop="url">
@@ -590,12 +590,12 @@
                                                     <script type="text/javascript">
                                                         $('#addToCartButton_1556').click(function() {
                                                             fbq('track', 'AddToCart', {
-                                                                content_name: 'Стартовый набор Kanger TOPBOX Mini Starter kit Platinum (KRTBMK7)', 
+                                                                content_name: 'Стартовый набор Kanger TOPBOX Mini Starter kit Platinum (KRTBMK7)',
                                                                 content_category: 'Электронные сигареты, стартовые комплекты и моды',
                                                                 content_ids: ['1556'],
                                                                 content_type: 'product',
                                                                 value: 2349.0,
-                                                                currency: 'UAH' 
+                                                                currency: 'UAH'
                                                             });
                                                             dataLayer.push({'event':'basket'});
                                                         });
@@ -605,7 +605,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="item-product col-xs-12 col-sm-4 col-md-6 col-lg-3 no-padd-xs">
                                     <div class="product-block product-small" itemscope itemtype="https://schema.org/Product">
                                         <div class="top-block">
@@ -620,7 +620,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="bottom-block">
                                             <h5 class="" itemprop="name">
                                                 <a href="/item/startovyiy-nabor-kanger-topbox-mini-starter-kit-platinum-krtbmk7-1556" class="product-name" itemprop="url">
@@ -638,12 +638,12 @@
                                                     <script type="text/javascript">
                                                         $('#addToCartButton_1556').click(function() {
                                                             fbq('track', 'AddToCart', {
-                                                                content_name: 'Стартовый набор Kanger TOPBOX Mini Starter kit Platinum (KRTBMK7)', 
+                                                                content_name: 'Стартовый набор Kanger TOPBOX Mini Starter kit Platinum (KRTBMK7)',
                                                                 content_category: 'Электронные сигареты, стартовые комплекты и моды',
                                                                 content_ids: ['1556'],
                                                                 content_type: 'product',
                                                                 value: 2349.0,
-                                                                currency: 'UAH' 
+                                                                currency: 'UAH'
                                                             });
                                                             dataLayer.push({'event':'basket'});
                                                         });
@@ -655,7 +655,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="box-btn">
                             <a href="/cat/veyping/elektronnyie-sigaretyi-startovyie-komplektyi-i-modyi" class="btn-main"><span>Смотреть все</span></a>
                         </div>
@@ -709,7 +709,7 @@
                 </section>
             </main>
             <!--Main End-->
-            
+
             <div class="sticky-btns">
                 <span id="scrollTop-btn"><i class="fa fa-chevron-up"></i></span>
             </div>
@@ -736,7 +736,7 @@
             </footer>
             <!--Footer End-->
         </div>
-    
+
         <nav id="menu">
             <ul>
                 <li><a href="/">Главная</a></li>
@@ -842,7 +842,7 @@
             </ul>
         </nav>
         <!-- Login / Sign Up Modal -->
-        
+
         <div class="modal fade" id="login-modal">
             <div class="modal-dialog">
                 <div class="container">
@@ -974,7 +974,7 @@
             stopOnHover: true,
             pagination: true
         });
-        
+
         /*
          *  PARALLAX
          */

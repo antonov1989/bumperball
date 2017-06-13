@@ -8,14 +8,14 @@
             <li><a href="/"><i class="fa fa-home"></i></a></li>
             <li><a href="/mods">Mods</a></li>
         </ul>
-        
+
         <div class="row">
             <aside id="column-left" class="col-sm-3 ">
                 <div class="box bestsellers">
                     <div class="box-heading">
                         <h3>Bestsellers</h3>
                     </div>
-                    
+
                     <div class="box-content">
                         <div class="row">
                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12  product-layout">
@@ -24,7 +24,7 @@
                                         <div class="product-options form-horizontal">
                                             <div class="options">
                                                 <a class="ajax-overlay_close" href='#'></a>
-                                                
+
                                                 <h3>Available Options</h3>
 
                                                 <div class="form-group hidden">
@@ -44,14 +44,14 @@
                                                                     10ml (0.33 FL OZ)
                                                                 </label>
                                                             </div>
-                                                            
+
                                                             <div class="radio">
                                                                 <label for="option[38652073404001]">
                                                                     <input type="radio" hidden name="option[3865]" id="option[38652073404001]" value="20734" />
                                                                     30ml (1 FL OZ) (+$9.00)
                                                                 </label>
                                                             </div>
-                                                            
+
                                                             <div class="radio">
                                                                 <label for="option[38652073504001]">
                                                                     <input type="radio" hidden name="option[3865]" id="option[38652073504001]" value="20735" />
@@ -61,7 +61,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                
+
                                                 <div class="form-group required">
                                                     <label class="control-label col-sm-12" for="input-option386604001">Nicotine Level</label>
 
@@ -79,14 +79,14 @@
                                                         </select>
                                                     </div>
                                                 </div>
-                                                
+
                                                 <button class="product-btn-add" type="button" onclick="cart.addPopup($(this),'315');">
                                                     <span>Add to Cart</span>
                                                 </button>
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="quick_info">
                                         <div id="quickview_bestsellers_40010" class="quickview-style">
                                             <div>
@@ -97,7 +97,7 @@
                                                         </a>
                                                     </div>
                                                 </div>
-                                                
+
                                                 <div class="right col-sm-8">
                                                     <h2>Abbott Road</h2>
 
@@ -107,28 +107,28 @@
 
                                                         <div class="price">$8.99</div>
                                                     </div>
-                                                    
+
                                                     <div class="rating">
                                                         <span class="fa-stack">
                                                             <i class="fl-bigmug-line-favourites5 fa-stack-1x"></i>
                                                             <i class="fl-bigmug-line-favourites5 star fa-stack-1x"></i>
                                                         </span>
-                                                        
+
                                                         <span class="fa-stack">
                                                             <i class="fl-bigmug-line-favourites5 fa-stack-1x"></i>
                                                             <i class="fl-bigmug-line-favourites5 star fa-stack-1x"></i>
                                                         </span>
-                                                        
+
                                                         <span class="fa-stack">
                                                             <i class="fl-bigmug-line-favourites5 fa-stack-1x"></i>
                                                             <i class="fl-bigmug-line-favourites5 star fa-stack-1x"></i>
                                                         </span>
-                                                        
+
                                                         <span class="fa-stack">
                                                             <i class="fl-bigmug-line-favourites5 fa-stack-1x"></i>
                                                             <i class="fl-bigmug-line-favourites5 star fa-stack-1x"></i>
                                                         </span>
-                                                        
+
                                                         <span class="fa-stack">
                                                             <i class="fl-bigmug-line-favourites5 fa-stack-1x"></i>
                                                             <i class="fl-bigmug-line-favourites5 star fa-stack-1x"></i>
@@ -141,21 +141,21 @@
                                                                 <i class="fl-bigmug-line-shuffle17"></i>
                                                             </button>
                                                         </li>
-                                                        
+
                                                         <li>
                                                             <button class="product-btn" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('315');">
                                                                 <i class="fl-bigmug-line-like51"></i>
                                                             </button>
                                                         </li>
                                                     </ul>
-                                                    
+
                                                     <button class="product-btn-add" data-toggle="tooltip" title="Add to Cart" type="button" onclick="cart.add('315');">
                                                         <i class="fl-bigmug-line-shopping199 "></i>
                                                     </button>
-                                                    
+
                                                     <div class="clear"></div>
                                                 </div>
-                                                
+
                                                 <div class="col-sm-12">
                                                     <div class="quickview_description description">
                                                         <p>Abbott Road is sweet ripe strawberries blended with creamy vanilla custard. &nbsp;You will be dreaming of strawberry fields forever after tasting this amazing juice.</p>
@@ -169,61 +169,61 @@
                                         <a class="lazy" style="padding-bottom: 92.592592592593%" href="/abbott-road">
                                             <img alt="Abbott Road" title="Abbott Road" class="img-responsive" src="/img/theme/abbott-roadcustard-line-315-270x250_0.jpg" />
                                         </a>
-                                        
+
                                         <a class="quickview" data-rel="details" href="#quickview_bestsellers_40010">Quick View</a>
                                     </div>
-                                    
+
                                     <div class="caption">
                                         <div class="name">
                                             <a href="/abbott-road">Abbott Road</a>
                                         </div>
-                                        
+
                                         <div class="description">Abbott Road is sweet ripe strawberries blended with creamy vanilla custard. &nbsp;You will be dreami..</div>
-                                        
+
                                         <div class="rating">
                                             <span class="fa-stack">
                                                 <i class="fl-bigmug-line-favourites5 fa-stack-1x"></i>
                                                 <i class="fl-bigmug-line-favourites5 star fa-stack-1x"></i>
                                             </span>
-                                            
+
                                             <span class="fa-stack">
                                                 <i class="fl-bigmug-line-favourites5 fa-stack-1x"></i>
                                                 <i class="fl-bigmug-line-favourites5 star fa-stack-1x"></i>
                                             </span>
-                                                                                                                                                            
+
                                             <span class="fa-stack">
                                                 <i class="fl-bigmug-line-favourites5 fa-stack-1x"></i>
                                                 <i class="fl-bigmug-line-favourites5 star fa-stack-1x"></i>
                                             </span>
-                                            
+
                                             <span class="fa-stack">
                                                 <i class="fl-bigmug-line-favourites5 fa-stack-1x"></i>
                                                 <i class="fl-bigmug-line-favourites5 star fa-stack-1x"></i>
                                             </span>
-                                            
+
                                             <span class="fa-stack">
                                                 <i class="fl-bigmug-line-favourites5 fa-stack-1x"></i>
                                                 <i class="fl-bigmug-line-favourites5 star fa-stack-1x"></i>
                                             </span>
                                         </div>
-                                        
+
                                         <div class="price">$8.99</div>
                                     </div>
-                                    
+
                                     <div class="cart-button">
                                         <button class="product-btn" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('315');">
                                             <i class="fl-bigmug-line-shuffle17"></i>
                                         </button>
-                                        
+
                                         <button class="product-btn" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('315');">
                                             <i class="fl-bigmug-line-like51"></i>
                                         </button>
-                                        
+
                                         <button class="product-btn-add" type="button" data-toggle="tooltip" title="Add to Cart" onclick="ajaxAdd($(this),315);">
                                             <i class="fl-bigmug-line-shopping199"></i>
                                         </button>
                                     </div>
-                                    
+
                                     <div class="clear"></div>
                                 </div>
                             </div>
@@ -231,20 +231,20 @@
                     </div>
                 </div>
             </aside>
-            
+
             <div id="content" class="col-sm-9">
                 <h2>Mods</h2>
-                
+
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="image">
                             <img src="/img/theme/sx-mini-m-class-limited-edition-black-chrome-1248-190x190_0.jpg" alt="Mods" title="Mods" class="img-thumbnail" />
                         </div>
                     </div>
-                    
+
                     <div class="col-sm-9"><p><br></p></div>
                 </div>
-                
+
                 <hr>
 
                 <h3>Refine Search</h3>
@@ -293,10 +293,10 @@
                             <button type="button" id="grid-view" data-toggle="tooltip" title="Grid"><i class="material-design-two375"></i></button>
                         </div>
                     </div>
-                    
+
                     <div class="product-filter_elem sort">
                         <label class="control-label" for="input-sort">Sort By:</label>
-                        
+
                         <select id="input-sort" onchange="location = this.value;">
                             <option value="/mods?sort=p.sort_order&amp;order=ASC">Default</option>
                             <option value="/mods?sort=pd.name&amp;order=ASC">Name (A - Z)</option>
@@ -309,10 +309,10 @@
                             <option value="/mods?sort=p.model&amp;order=DESC">Model (Z - A)</option>
                         </select>
                     </div>
-                    
+
                     <div class="product-filter_elem show pull-right">
                         <label class="control-label" for="input-limit">Show:</label>
-                        
+
                         <select id="input-limit" onchange="location = this.value;">
                             <option value="/mods?limit=6" selected="selected">6</option>
                             <option value="/mods?limit=25">25</option>
@@ -321,14 +321,14 @@
                             <option value="/mods?limit=100">100</option>
                         </select>
                     </div>
-                    
+
                     <div class="product-filter_elem">
                         <div class="button-view">
                             <a href="/compare" id="compare-total" class="compare-total material-design-shuffle24" data-toggle="tooltip" title="Product Compare (0)"><span>Product Compare (0)</span></a>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="row">
                     @foreach ($products as $product)
                         <div class="product-layout product-list col-xs-12">
@@ -353,32 +353,32 @@
                                                         <div class="radio">
                                                             <label for="option[48872619610001]">
                                                                 <input type="radio" hidden name="option[4887]" id="option[48872619610001]" value="26196" />
-                                                                White                                                                                                                            
+                                                                White
                                                             </label>
                                                         </div>
                                                         <div class="radio">
                                                             <label for="option[48872619510001]">
                                                                 <input type="radio" hidden name="option[4887]" id="option[48872619510001]" value="26195"/>
-                                                                Black                                                                                                                            
+                                                                Black
                                                             </label>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            
+
                                             <button class="product-btn-add" type="button" onclick="cart.addPopup($(this),'2254');">
                                                 <span>Add to Cart</span>
                                             </button>
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="image">
                                     <a class="lazy" style="padding-bottom: 100%" href="/mods/kanger-subox-mini-c-starter-kit">
                                         <img alt="Kanger SUBOX Mini-C Starter Kit" title="Kanger SUBOX Mini-C Starter Kit" class="img-responsive" src="{{ $product['img'] }}" />
                                     </a>
                                 </div>
-                                
+
                                 <div class="caption">
                                     <div class="name name-product"><a href="/mods/kanger-subox-mini-c-starter-kit">{{ $product['name'] }}</a></div>
                                     <div class="description">{{ $product['description'] }}</div>
@@ -386,44 +386,44 @@
                                 </div>
                                 <div class="aside">
                                     <div class="price price-product">${{ $product['price'] }}</div>
-                                    
+
                                     <div class="cart-button">
                                         <button class="product-btn" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('2254');">
                                             <i class="fl-bigmug-line-shuffle17"></i>
                                         </button>
-                                        
+
                                         <button class="product-btn" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('2254');">
                                             <i class="fl-bigmug-line-like51"></i>
                                         </button>
-                                        
+
                                         <button class="product-btn-add" type="button" data-toggle="tooltip" title="Add to Cart" onclick="ajaxAdd($(this),2254);">
                                             <i class="fl-bigmug-line-shopping199 "></i>
                                         </button>
                                     </div>
                                 </div>
-                                
+
                                 <div class="price price-product">${{ $product['price'] }}</div>
-                                
+
                                 <div class="cart-button">
                                     <button class="product-btn" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('2254');">
                                         <i class="fl-bigmug-line-shuffle17"></i>
                                     </button>
-                                    
+
                                     <button class="product-btn" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('2254');">
                                         <i class="fl-bigmug-line-like51"></i>
                                     </button>
-                                    
+
                                     <button class="product-btn-add" type="button" data-toggle="tooltip" title="Add to Cart" onclick="ajaxAdd($(this),2254);">
                                         <i class="fl-bigmug-line-shopping199 "></i>
                                     </button>
                                 </div>
                             </div>
-                            
+
                             <div class="clear"></div>
                         </div>
                     @endforeach
                 </div>
-                
+
                 <div class="row">
                     <div class="col-sm-6 text-left">
                         <ul class="pagination">
@@ -434,7 +434,7 @@
                             <li><a href="/mods/page/9">&gt;|</a></li>
                         </ul>
                     </div>
-                    
+
                     <div class="col-sm-6 text-right"><div class="results">Showing 1 to 6 of 53 (9 Pages)</div></div>
                 </div>
             </div>
