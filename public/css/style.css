@@ -2935,7 +2935,7 @@ header .main-menu li a {
 header .main-menu li a i {
   font-size: 20px;
 }
-header .main-menu li a .ion-ios-filing-outline, header .main-menu li a .ion-ios-calculator-outline, header .main-menu li a .ion-ios-calculator {
+header .main-menu li a .ion-images, header .main-menu li a .ion-person-stalker, header .main-menu li a .ion-social-usd {
   font-size: 36px;
   padding-right: 5px;
   position: relative;

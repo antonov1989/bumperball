@@ -13,6 +13,11 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return view('layouts.main');
+        return view('home.index');
+    }
+
+    public function search()
+    {
+        return view('home.search');
     }
 }

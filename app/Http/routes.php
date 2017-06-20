@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('search', 'HomeController@search')->name('search');
 
 Route::group(['prefix' => 'auth'], function () {
     // Authentication routes...
