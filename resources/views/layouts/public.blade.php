@@ -10,28 +10,33 @@
                         <ul class="nav navbar-nav navbar-left">
                             <li class="social-btn">
                                 <a href="#" class="social-box" title="facebook" target="_blank">
-                                    <div class="icon">
-                                        <i class="fa ion-social-facebook"></i>
+                                    <div class="icon icon-facebook">
+
                                     </div>
                                 </a>
                                 <a href="#" class="social-box" title="twitter" target="_blank">
-                                    <div class="icon">
-                                        <i class="fa ion-social-twitter"></i>
+                                    <div class="icon icon-twitter">
+
                                     </div>
                                 </a>
                                 <a href="#" class="social-box" title="googleplus" target="_blank">
-                                    <div class="icon">
-                                        <i class="fa ion-social-googleplus-outline"></i>
+                                    <div class="icon icon-googleplus">
+
                                     </div>
                                 </a>
                                 <a href="#" class="social-box" title="instagram" target="_blank">
-                                    <div class="icon">
-                                        <i class="fa ion-social-instagram-outline"></i>
+                                    <div class="icon icon-instagram">
+
                                     </div>
                                 </a>
                                 <a href="#" class="social-box" title="youtube" target="_blank">
-                                    <div class="icon">
-                                        <i class="fa ion-social-youtube-outline"></i>
+                                    <div class="icon icon-youtube">
+
+                                    </div>
+                                </a>
+                                <a href="#" class="social-box" title="vkontakte" target="_blank">
+                                    <div class="icon icon-vk">
+
                                     </div>
                                 </a>
                             </li>

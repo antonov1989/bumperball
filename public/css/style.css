@@ -2571,7 +2571,7 @@ header .header-inner {
   position: relative;
 }
 header .header-top {
-  background: #171f2f;
+  background: #323232;
   position: absolute;
   z-index: 100;
   width: 85%;
@@ -2584,7 +2584,7 @@ header .header-top:after {
   left: -11px;
   height: 40px;
   width: 40px;
-  background: #171f2f;
+  background: #323232;
   -webkit-transform: skew(30deg, 0);
   -moz-transform: skew(30deg, 0);
   -ms-transform: skew(30deg, 0);
@@ -2598,7 +2598,7 @@ header .header-top:before {
   right: -11px;
   height: 40px;
   width: 40px;
-  background: #171f2f;
+  background: #323232;
   -webkit-transform: skew(-30deg, 0);
   -moz-transform: skew(-30deg, 0);
   -ms-transform: skew(-30deg, 0);
@@ -2796,21 +2796,39 @@ header .header-top .navbar-right .social-btn {
 }
 header .header-top .navbar-left .social-btn .social-box {
   display: inline-block;
-  padding: 7px 3px;
+  padding: 8px 3px 0px;
 }
 header .header-top .navbar-left .social-btn .social-box .icon {
-  width: 25px;
-  height: 25px;
+  width: 26px;
+  height: 26px;
   line-height: 24px;
   text-align: center;
-  color: #fff;
-  border: 1px solid #fff;
-  border-radius: 50%;
-  font-size: 14px;
+  background: url(../img/theme/icons.png) no-repeat 0 0;
+  border: 1px solid #323232;
+  border-radius: 15%;
+  /*color: #fff;
+  font-size: 14px;--bandit*/
+}
+header .header-top .navbar-left .social-btn .social-box .icon.icon-facebook {
+  background-position: -261px -3px;
+}
+header .header-top .navbar-left .social-btn .social-box .icon.icon-twitter {
+  background-position: -132px -3px;
+}
+header .header-top .navbar-left .social-btn .social-box .icon.icon-googleplus {
+  background-position: -175px -46px;
+}
+header .header-top .navbar-left .social-btn .social-box .icon.icon-instagram {
+  background-position: -3px -218px;
+}
+header .header-top .navbar-left .social-btn .social-box .icon.icon-youtube {
+  background-position: -132px -46px;
+}
+header .header-top .navbar-left .social-btn .social-box .icon.icon-vk {
+  background-position: -89px -46px;
 }
 header .header-top .navbar-left .social-btn .social-box:hover .icon {
-  color: #009fc7;
-  border: 1px solid #009fc7;
+  border: 1px solid #fff;
 }
 header .main-menu li {
   float: left;
