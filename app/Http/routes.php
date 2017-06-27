@@ -12,7 +12,13 @@
 */
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('/faq', 'HomeController@faq')->name('faq');
+Route::get('/price', 'HomeController@price')->name('price');
+Route::get('/contacts', 'HomeController@contacts')->name('contacts');
 Route::get('search', 'HomeController@search')->name('search');
+Route::get('gallery', 'GalleryController@index')->name('gallery');
+Route::get('video', 'VideoController@index')->name('video');
+Route::get('map', 'MapController@index')->name('map');
 
 Route::group(['prefix' => 'auth'], function () {
     // Authentication routes...

@@ -42,6 +42,23 @@
                             </li>
                         </ul>
 
+                        <div class="nav-site pull-right">
+                            <button type="button" class="navbar-toggle">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                            <div class="navbar-collapse" id="top-menu">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="/faq"><span>Вопросы и ответы</span></a></li>
+                                    <li><a href="/price"><span>Оплата</span></a></li>
+                                    <li><a href="/contacts"><span>Контакты</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
                         <ul class="nav navbar-nav navbar-right">
                             <li class="search">
                                 <div class="header-search">
@@ -56,7 +73,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="menu-dropdown">
+                            {{--<li class="menu-dropdown">
                                 <div class="current">
                                     <span><i class="ion-android-person"></i> Меню</span>
                                 </div>
@@ -64,7 +81,7 @@
                                     <li><a href="/"><i class="ion-android-person-add"></i> Регистрация</a></li>
                                     <li><a href="/"><i class="ion-log-in"></i> Войти</a></li>
                                 </ul>
-                            </li>
+                            </li>--}}
                         </ul>
                     </div>
 
@@ -75,19 +92,19 @@
                                     <a href="/"><img src="/img/logo.png" alt="Bumperball"/></a>
                                 </div>
                             </li>
-                            <li class="dropdown btn-catalog-menu">
+                            <li class="btn-catalog-menu">
                                 <div class="inner">
-                                    <a href="/" class="hidden-xs"><i class="ion-images"></i> галерея </a>
+                                    <a href="/gallery" class="hidden-xs"><i class="ion-images"></i> галерея </a>
                                 </div>
                             </li>
-                            <li class="dropdown btn-second-menu">
+                            <li class="btn-second-menu">
                                 <div class="inner">
-                                    <a href="/" class="hidden-xs"><i class="ion-social-usd"></i> стоимость </a>
+                                    <a href="/video" class="hidden-xs"><i class="ion-ios-videocam"></i> видео </a>
                                 </div>
                             </li>
-                            <li class="dropdown btn-third-menu">
+                            <li class="btn-third-menu">
                                 <div class="inner">
-                                    <a href="/" class="hidden-xs"><i class="ion-person-stalker"></i> контакты </a>
+                                    <a href="/map" class="hidden-xs"><i class="ion-ios-location"></i> карта </a>
                                 </div>
                             </li>
                         </ul>

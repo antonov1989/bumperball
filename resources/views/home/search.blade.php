@@ -11,7 +11,7 @@
         <section class="interesting-models catalog-page clearfix">
             <div class="container">
                 <div class="page-header clearfix">
-                    <h1 class="name pull-left">Searching...</h1>
+                    <h1 class="name pull-left">Поиск...</h1>
                 </div>
             </div>
         </section>

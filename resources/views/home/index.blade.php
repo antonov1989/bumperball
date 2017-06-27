@@ -298,7 +298,7 @@
                     <div class="cell-view">
                         <div class="parallax-article">
                             <div class="info">
-                                <p>Устройства для вейпинга</p>
+                                <p>Бампербол для вас</p>
                             </div>
                         </div>
                     </div>
@@ -308,8 +308,7 @@
                     <div class="cell-view">
                         <div class="parallax-article">
                             <div class="info">
-                                <a href="/cat/veyping/elektronnyie-sigaretyi-startovyie-komplektyi-i-modyi/elektronnaya-sigareta" class="button style-8 style-2">ЭЛЕКТРОННЫЕ
-                                    СИГАРЕТЫ </a>
+                                <a href="/gallery" class="button style-8 style-2">ГАЛЕРЕЯ </a>
                             </div>
                         </div>
                     </div>
@@ -319,8 +318,7 @@
                     <div class="cell-view">
                         <div class="parallax-article">
                             <div class="info">
-                                <a href="/cat/veyping/elektronnyie-sigaretyi-startovyie-komplektyi-i-modyi/startovyiy-komplekt" class="button style-8 style-2">СТАРТОВЫЙ
-                                    КОМПЛЕКТ</a>
+                                <a href="/video" class="button style-8 style-2">ВИДЕО </a>
                             </div>
                         </div>
                     </div>
@@ -330,7 +328,7 @@
                     <div class="cell-view">
                         <div class="parallax-article">
                             <div class="info">
-                                <a href="/cat/veyping/elektronnyie-sigaretyi-startovyie-komplektyi-i-modyi/batareynyiy-mod" class="button style-8">БАТАРЕЙНЫЙ МОД </a>
+                                <a href="/map" class="button style-8 style-2">КАРТА </a>
                             </div>
                         </div>
                     </div>
@@ -340,7 +338,5 @@
     </main>
     <!--Main End-->
 
-    <div class="sticky-btns">
-        <span id="scrollTop-btn"><i class="fa fa-chevron-up"></i></span>
-    </div>
+    <div id="bottomLine"></div>
 @endsection

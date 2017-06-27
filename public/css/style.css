@@ -1739,32 +1739,54 @@ a:hover {
 }
 .sticky-btns {
   position: fixed;
-  z-index: 15;
-  right: -1000000px;
-  bottom: 46px;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
   transition: right .3s;
+  width: 10%;
+  height: 100%;
+  cursor: pointer;
+  display: none;
 }
-.sticky-btns.scrolled {
-  right: -7px;
+body.scrolled .sticky-btns {
+  display: block;
+  z-index: 102;
+  overflow: hidden;
+}
+.sticky-btns:hover {
+  background-color: #DCE2E8;
+  opacity: 0.5;
 }
 .sticky-btns span {
   display: block;
-  float: left;
-  width: 48px;
-  height: 45px;
+  width: 23px;
   text-align: center;
   font-size: 1.375em;
-  color: #fff;
-  background: #009fc7;
+  color: #009fc7;
   opacity: 0.6;
   border-radius: 0;
   padding-top: 7px;
-  margin: 0 7px;
+  margin: 0 auto;
   cursor: pointer;
   transition: background .3s;
 }
 .sticky-btns i.fa {
   padding-top: 4px;
+}
+body.scrolled .sticky-btns.sticky-min {
+  width: 48px!important;
+  height: 45px;
+  text-align: center;
+  color: #fff;
+  background: #009fc7;
+  margin: 0 2px;
+  bottom: 61px;
+  top: auto;
+  z-index: 104;
+}
+.sticky-btns.sticky-min span {
+  color: #fff;
 }
 #modal-alert .modal-dialog {
   margin: 150px auto;
@@ -2655,7 +2677,7 @@ header .header-top:before {
 header .header-top .navbar-nav a {
   color: #fff;
   font-size: 12px;
-  padding: 10px 15px;
+  padding: 10px 15px 9px;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -2695,7 +2717,7 @@ header .header-top .nav-site #top-menu a span {
 header .header-top .nav-site #top-menu a span:before {
   content: '';
   display: block;
-  width: 100%;
+  width: 0;
   height: 1px;
   background-color: #009fc7;
   position: absolute;
@@ -2740,9 +2762,9 @@ header .header-top .navbar-right > li:after {
   background: #434658;
   margin-top: -10px;
 }
-header .header-top .navbar-right > li:last-child:after {
+/*header .header-top .navbar-right > li:last-child:after {
   display: none;
-}
+}*/
 header .header-top .navbar-right .menu-dropdown {
   font-size: 14px;
 }
@@ -2953,7 +2975,7 @@ header .main-menu li a {
 header .main-menu li a i {
   font-size: 20px;
 }
-header .main-menu li a .ion-images, header .main-menu li a .ion-person-stalker, header .main-menu li a .ion-social-usd {
+header .main-menu li a .ion-images, header .main-menu li a .ion-ios-videocam, header .main-menu li a .ion-ios-location {
   font-size: 36px;
   padding-right: 5px;
   position: relative;
@@ -3672,7 +3694,7 @@ header a.cart i.cart-count {
 }
 header .header-search {
   position: relative;
-  padding: 8px 0 0;
+  padding: 8px 0 5px;
 }
 header .header-search a {
   font-size: 16px!important;
@@ -7203,7 +7225,9 @@ main .our-advantages .content-block .item:hover .icon:before {
   color: #1f1f1f;
 }
 footer {
-  background: #232a3a;
+  background: #323232;
+  z-index: 103;
+  position: relative;
 }
 footer .block-news {
   margin-top: -40px;
@@ -7609,7 +7633,7 @@ footer .bottom-block .design a {
 }
 .lp-page section {
   position: relative;
-  z-index: 100;
+  z-index: 103;
   background: #fff;
 }
 .lp-page header {
@@ -9115,4 +9139,7 @@ footer .bottom-block .design a {
 }
 .alert-ok .sweet-alert:focus {
   outline: none;
+}
+#bottomLine {
+  padding: 40px 0;
 }

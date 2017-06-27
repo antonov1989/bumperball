@@ -150,6 +150,28 @@ $(function(){
         }
     });
 
+    function recalculateTopBtn()
+    {
+        var containerWidth = $('main .container:first').width();
+        var documentWidth = $(document).width();
+        var diff = documentWidth - containerWidth;
+
+        var halfWidth = diff / 2;
+
+        if (halfWidth >= 50) {
+            $scrollTopBtn.removeClass('sticky-min').width(halfWidth);
+        } else {
+            $scrollTopBtn.addClass('sticky-min');
+        }
+
+        console.log(halfWidth);
+    }
+
+    $( window ).resize(function() {
+        recalculateTopBtn();
+    });
+
+    recalculateTopBtn();
 });
 
 $(document).mouseup(function (e){

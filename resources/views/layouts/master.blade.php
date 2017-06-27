@@ -39,6 +39,10 @@
     </head>
     
     <body>
+        <div id="scrollTop-btn" class="sticky-btns">
+            <span><i class="fa fa-chevron-up"></i></span>
+        </div>
+
         @yield('layout')
     </body>
 </html>
