@@ -7,8 +7,6 @@
 @section('content')
     <!--Main-->
     <main>
-        <div style="width: 100%; height: 120px;"></div>
-
         <div class="profile-page">
             <div class="container">
                 <ol class="breadcrumb" xmlns:v="http://rdf.data-vocabulary.org/#">
