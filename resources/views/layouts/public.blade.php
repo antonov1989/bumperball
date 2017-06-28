@@ -7,82 +7,86 @@
             <div class="container">
                 <div class="header-inner">
                     <div class="header-top clearfix hidden-xs">
-                        <ul class="nav navbar-nav navbar-left">
-                            <li class="social-btn">
-                                <a href="#" class="social-box" title="facebook" target="_blank">
-                                    <div class="icon icon-facebook">
+                        <div class="scroll-menu">
+                            <div class="scroll-menu-container">
+                                <ul class="nav navbar-nav navbar-left">
+                                    <li class="social-btn">
+                                        <a href="#" class="social-box" title="facebook" target="_blank">
+                                            <div class="icon icon-facebook">
 
-                                    </div>
-                                </a>
-                                <a href="#" class="social-box" title="twitter" target="_blank">
-                                    <div class="icon icon-twitter">
+                                            </div>
+                                        </a>
+                                        <a href="#" class="social-box" title="twitter" target="_blank">
+                                            <div class="icon icon-twitter">
 
-                                    </div>
-                                </a>
-                                <a href="#" class="social-box" title="googleplus" target="_blank">
-                                    <div class="icon icon-googleplus">
+                                            </div>
+                                        </a>
+                                        <a href="#" class="social-box" title="googleplus" target="_blank">
+                                            <div class="icon icon-googleplus">
 
-                                    </div>
-                                </a>
-                                <a href="#" class="social-box" title="instagram" target="_blank">
-                                    <div class="icon icon-instagram">
+                                            </div>
+                                        </a>
+                                        <a href="#" class="social-box" title="instagram" target="_blank">
+                                            <div class="icon icon-instagram">
 
-                                    </div>
-                                </a>
-                                <a href="#" class="social-box" title="youtube" target="_blank">
-                                    <div class="icon icon-youtube">
+                                            </div>
+                                        </a>
+                                        <a href="#" class="social-box" title="youtube" target="_blank">
+                                            <div class="icon icon-youtube">
 
-                                    </div>
-                                </a>
-                                <a href="#" class="social-box" title="vkontakte" target="_blank">
-                                    <div class="icon icon-vk">
+                                            </div>
+                                        </a>
+                                        <a href="#" class="social-box" title="vkontakte" target="_blank">
+                                            <div class="icon icon-vk">
 
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-
-                        <div class="nav-site pull-right">
-                            <button type="button" class="navbar-toggle">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-
-                            <div class="navbar-collapse" id="top-menu">
-                                <ul class="nav navbar-nav">
-                                    <li><a href="/faq"><span>Вопросы и ответы</span></a></li>
-                                    <li><a href="/price"><span>Оплата</span></a></li>
-                                    <li><a href="/contacts"><span>Контакты</span></a></li>
+                                            </div>
+                                        </a>
+                                    </li>
                                 </ul>
+
+                                <div class="nav-site pull-right">
+                                    <button type="button" class="navbar-toggle">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+
+                                    <div class="navbar-collapse" id="top-menu">
+                                        <ul class="nav navbar-nav">
+                                            <li><a href="/faq"><span>Вопросы и ответы</span></a></li>
+                                            <li><a href="/price"><span>Оплата</span></a></li>
+                                            <li><a href="/contacts"><span>Контакты</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                {{--<ul class="nav navbar-nav navbar-right">
+                                    <li class="search">
+                                        <div class="header-search">
+                                            <a href="">поиск <i class="ion-ios-search"></i></a>
+                                            <div class="search-dropdown">
+                                                <form action="/search" method="get">
+                                                    <div class="input-box">
+                                                        <input type="text" name="q" class="form-control"/>
+                                                        <button type="submit"><i class="ion-ios-search"></i></button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="menu-dropdown">
+                                        <div class="current">
+                                            <span><i class="ion-android-person"></i> Меню</span>
+                                        </div>
+                                        <ul class="dropdown">
+                                            <li><a href="/"><i class="ion-android-person-add"></i> Регистрация</a></li>
+                                            <li><a href="/"><i class="ion-log-in"></i> Войти</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>--}}
                             </div>
                         </div>
-
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="search">
-                                <div class="header-search">
-                                    <a href="">поиск <i class="ion-ios-search"></i></a>
-                                    <div class="search-dropdown">
-                                        <form action="/search" method="get">
-                                            <div class="input-box">
-                                                <input type="text" name="q" class="form-control"/>
-                                                <button type="submit"><i class="ion-ios-search"></i></button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </li>
-                            {{--<li class="menu-dropdown">
-                                <div class="current">
-                                    <span><i class="ion-android-person"></i> Меню</span>
-                                </div>
-                                <ul class="dropdown">
-                                    <li><a href="/"><i class="ion-android-person-add"></i> Регистрация</a></li>
-                                    <li><a href="/"><i class="ion-log-in"></i> Войти</a></li>
-                                </ul>
-                            </li>--}}
-                        </ul>
                     </div>
 
                     <div class="main-header">
@@ -279,6 +283,14 @@
             $('.scrollimation').waypoint(function(){
                 $(this).addClass('in');
             },{offset:'80%'});
+            
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 100) {
+                    $('header .header-top').addClass('scrolling');
+                } else {
+                    $('header .header-top').removeClass('scrolling');
+                }
+            });
         })
     </script>
 @endsection

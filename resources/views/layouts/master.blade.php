@@ -36,6 +36,11 @@
         <script src="/js/libs/jquery.min.js" type="text/javascript"></script>
         <!-- Bootstrap Jquery -->
         <script src="/js/libs/bootstrap.min.js" type="text/javascript"></script>
+        
+        <!-- Add fancyBox main JS and CSS files -->
+        <script type="text/javascript" src="/js/libs/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+        <script type="text/javascript" src="/js/libs/fancybox/jquery.fancybox.js?v=2.1.4"></script>
+        <link rel="stylesheet" type="text/css" href="/css/libs/fancybox/jquery.fancybox.css?v=2.1.4" media="screen" />
     </head>
     
     <body>
