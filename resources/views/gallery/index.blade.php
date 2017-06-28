@@ -19,16 +19,30 @@
                     <h1 class="name pull-left">Галерея</h1>
                 </div>
                 <div class="row">
-
+                    <div class="col-sm-12">
+                        <div class="thumbs_gallery">
+                        
+                            @foreach  ($gallary as $key => $image)
+                                <div class="thumbs_image scrollimation">
+                                    <a class="fancybox" href="{{ $galletyImgDir }}{{ $image }}" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet">
+                                        <img @if ($key > 6)class="wow zoomIn" @endif src="{{ $galletyImgDir }}{{ $image }}" alt="" />
+                                    </a>
+                                </div>
+                            @endforeach
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div id="darkness" class="hidden-xs"></div>
     </main>
-    <!--Main End-->
-
-    <div class="sticky-btns">
-        <span id="scrollTop-btn"><i class="fa fa-chevron-up"></i></span>
-    </div>
+    <!--Main End-->    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.fancybox').fancybox();
+        });
+    </script>
+    
 @endsection

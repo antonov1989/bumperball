@@ -10,8 +10,20 @@ namespace App\Http\Controllers;
 
 class GalleryController extends Controller
 {
+    private $galleryImgDir = '/img/balls/';
+    
     public function index()
     {
-        return view('gallery.index');
+        $folder = public_path() . $this->galleryImgDir;
+        $gallary = scandir($folder);
+        
+        $gallary = array_filter($gallary, function($item){
+            return strlen($item) > 4; 
+        });
+            
+        return view('gallery.index', array(
+            'gallary' => $gallary, 
+            'galletyImgDir' => $this->galleryImgDir 
+        ));
     }
 }
