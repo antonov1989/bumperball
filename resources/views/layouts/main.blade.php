@@ -34,7 +34,7 @@
         <!-- Jquery -->
         <script src="/js/libs/jquery.min.js" type="text/javascript"></script>
         <!-- Bootstrap Jquery -->
-        <script src="/js/libs/bootstrap.min.js" type="text/javascript"></script>
+        <script src="/js/libs/bootstrap.min.js" type="text/javascript"></script>     
     </head>
 
     <body>
@@ -689,7 +689,7 @@
                  /* ---------------------------------------------- */
                 $('.scrollimation').waypoint(function(){
                     $(this).addClass('in');
-                },{offset:'80%'});
+                },{offset:'80%'});  
             })
         </script>
     </body>

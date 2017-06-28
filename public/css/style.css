@@ -9001,7 +9001,7 @@ footer .bottom-block .design a {
 .lp-vape .point-block {
   background: #fff;
   position: relative;
-  z-index: 100;
+  /*z-index: 100;     */
 }
 .lp-vape .point-block .header-point {
   text-align: center;
@@ -9142,4 +9142,15 @@ footer .bottom-block .design a {
 }
 #bottomLine {
   padding: 40px 0;
+}
+.header-top.scrolling .scroll-menu {
+    position: fixed;
+    background: #323232;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+.header-top.scrolling .scroll-menu-container {
+    max-width: 1400px;
+    margin: 0 auto;
 }
