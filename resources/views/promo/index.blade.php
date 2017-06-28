@@ -1,8 +1,8 @@
 @extends('layouts.public')
 
-@section('title', 'Video')
-@section('description', 'Video')
-@section('keywords', 'Video')
+@section('title', 'Promotions')
+@section('description', 'Promotions')
+@section('keywords', 'Promotions')
 
 @section('content')
     <!--Main-->
@@ -11,10 +11,10 @@
             <div class="container">
                 <ol class="breadcrumb" xmlns:v="http://rdf.data-vocabulary.org/#">
                     <li typeof="v:Breadcrumb"><a href="/" rel="v:url" property="v:title"><i class="ion-ios-home-outline"></i> Главная</a></li>
-                    <li typeof="v:Breadcrumb" class="active"><a href="#" rel="v:url" property="v:title">Видео</a></li>
+                    <li typeof="v:Breadcrumb" class="active"><a href="#" rel="v:url" property="v:title">Акции</a></li>
                 </ol>
                 <div class="page-header clearfix">
-                    <h1 class="name pull-left">Видео</h1>
+                    <h1 class="name pull-left">Акции</h1>
                 </div>
                 <div class="row">
 
