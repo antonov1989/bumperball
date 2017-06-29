@@ -109,7 +109,7 @@
                             </li>
                             <li class="btn-third-menu">
                                 <div class="inner">
-                                    <a href="/map" class="hidden-xs"><i class="ion-ios-location"></i> карта </a>
+                                    <a href="/promo" class="hidden-xs"><i class="ion-alert"></i> акции </a>
                                 </div>
                             </li>
                         </ul>
@@ -133,6 +133,8 @@
             </div>
         </header>
         <!--Header End-->
+
+        <div class="header-margin"></div>
 
         @yield('content')
 

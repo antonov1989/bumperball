@@ -1753,6 +1753,7 @@ body.scrolled .sticky-btns {
   display: block;
   z-index: 102;
   overflow: hidden;
+  margin-top: 40px;
 }
 .sticky-btns:hover {
   background-color: #DCE2E8;
@@ -2675,6 +2676,9 @@ header .header-top:before {
 .main-menu .main-menu-list li.main-menu-item:hover a:before {
   width: 100%;
 }
+header .header-top .navbar-nav {
+  margin-top: 1px;
+}
 header .header-top .navbar-nav a {
   color: #fff;
   font-size: 12px;
@@ -2864,7 +2868,7 @@ header .main-menu li {
 }
 header .main-menu li .inner {
   position: relative;
-  height: 120px;
+  height: 100px;
   padding: 0 5px;
 }
 header .main-menu li .inner:before {
@@ -2872,8 +2876,8 @@ header .main-menu li .inner:before {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: -25px;
-  right: -25px;
+  left: -31px;
+  right: -31px;
   background: #009fc7;
   -webkit-transform: skew(30deg, 0);
   -moz-transform: skew(30deg, 0);
@@ -2890,8 +2894,8 @@ header .main-menu li.btn-second-menu .inner:before {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: -25px;
-  right: -25px;
+  left: -31px;
+  right: -31px;
   background: #f0ad4e;
   -webkit-transform: skew(30deg, 0);
   -moz-transform: skew(30deg, 0);
@@ -2903,8 +2907,8 @@ header .main-menu li.btn-third-menu .inner:before {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: -25px;
-  right: -25px;
+  left: -31px;
+  right: -31px;
   background: #5cb85c;
   -webkit-transform: skew(30deg, 0);
   -moz-transform: skew(30deg, 0);
@@ -2924,7 +2928,7 @@ header .main-menu li.logo .inner:before {
   left: -60px;
 }
 header .main-menu li.logo .inner a {
-  padding: 23px 0 20px;
+  padding: 5px 0 0;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   header .main-menu li.logo .inner a {
@@ -2953,7 +2957,7 @@ header .main-menu li a {
   display: block;
   position: relative;
   z-index: 1;
-  padding: 49px 0 20px 18px;
+  padding: 39px 0 0 18px;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
@@ -2976,7 +2980,7 @@ header .main-menu li a {
 header .main-menu li a i {
   font-size: 20px;
 }
-header .main-menu li a .ion-images, header .main-menu li a .ion-ios-videocam, header .main-menu li a .ion-ios-location {
+header .main-menu li a .ion-images, header .main-menu li a .ion-ios-videocam, header .main-menu li a .ion-alert {
   font-size: 36px;
   padding-right: 5px;
   position: relative;
@@ -7788,6 +7792,16 @@ footer .bottom-block .design a {
 .lp-page .img-responsive {
   display: inline-block;
 }
+.lp-page .main-info {
+  background: #f4f6fb;
+  background: -moz-linear-gradient(top, #f4f6fb 0%, #ffffff 100%);
+  background: -webkit-linear-gradient(top, #f4f6fb 0%, #ffffff 100%);
+  background: linear-gradient(to bottom, #f4f6fb 0%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f6fb', endColorstr='#ffffff', GradientType=0);
+  position: relative;
+  z-index: 10;
+  min-height: 200px;
+}
 .lp-page .description-product {
   background: #f4f6fb;
   background: -moz-linear-gradient(top, #f4f6fb 0%, #ffffff 100%);
@@ -8961,7 +8975,7 @@ footer .bottom-block .design a {
 }
 .lp-vape .slider-bg {
   width: 100%;
-  height: 697px;
+  height: 642px;
 }
 @media (max-width: 767px) {
   .lp-vape .slider-bg {
@@ -9068,6 +9082,12 @@ footer .bottom-block .design a {
 .lp-vape .point-block .inner .content .image img {
   width: 100%;
 }
+.lp-vape .point-block .inner.price-block .content .image img {
+  width: auto;
+}
+.lp-vape .point-block .inner.price-block .content {
+  text-align: center;
+}
 .lp-vape .point-block .inner .content .txt {
   font-size: 16px;
   color: #696969;
@@ -9155,4 +9175,22 @@ footer .bottom-block .design a {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 10px;
+}
+.header-margin {
+  margin-top: 100px;
+  width: 100%;
+}
+.order-add-button {
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+    background-color: #323232;
+    color: #fff;
+    font-size: 22px;
+    padding: 10px;
+    display: block;
+}
+.order-add-button:hover {
+    background-color: #404040;
+    color: #fff;
 }
