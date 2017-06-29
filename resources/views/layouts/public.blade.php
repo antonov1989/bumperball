@@ -16,7 +16,12 @@
 
                                             </div>
                                         </a>
-                                        <a href="#" class="social-box" title="twitter" target="_blank">
+                                        <a href="https://vk.com/xball_kharkov" class="social-box" title="vkontakte" target="_blank">
+                                            <div class="icon icon-vk">
+
+                                            </div>
+                                        </a>
+                                        {{--<a href="#" class="social-box" title="twitter" target="_blank">
                                             <div class="icon icon-twitter">
 
                                             </div>
@@ -35,12 +40,8 @@
                                             <div class="icon icon-youtube">
 
                                             </div>
-                                        </a>
-                                        <a href="#" class="social-box" title="vkontakte" target="_blank">
-                                            <div class="icon icon-vk">
-
-                                            </div>
-                                        </a>
+                                        </a>--}}
+                                        
                                     </li>
                                 </ul>
 

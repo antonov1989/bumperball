@@ -2597,6 +2597,7 @@ header .header-top {
   position: absolute;
   z-index: 100;
   width: 85%;
+  height: 40px;
   left: 15%;
 }
 header .header-top:after {
@@ -7794,7 +7795,7 @@ footer .bottom-block .design a {
   background: linear-gradient(to bottom, #f4f6fb 0%, #ffffff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f6fb', endColorstr='#ffffff', GradientType=0);
   position: relative;
-  z-index: 10;
+  z-index: 0;
 }
 .lp-page .description-product .title {
   font-weight: bold;
@@ -9153,4 +9154,5 @@ footer .bottom-block .design a {
 .header-top.scrolling .scroll-menu-container {
     max-width: 1400px;
     margin: 0 auto;
+    padding: 0 10px;
 }
